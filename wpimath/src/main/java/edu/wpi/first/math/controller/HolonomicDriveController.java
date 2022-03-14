@@ -46,6 +46,7 @@ public class HolonomicDriveController {
     m_xController = xController;
     m_yController = yController;
     m_thetaController = thetaController;
+    m_thetaController.enableContinuousInput(-Math.PI, Math.PI);
   }
 
   /**
